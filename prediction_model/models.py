@@ -365,7 +365,7 @@ def main():
             )
             add_result(
                 runs, points, df, test_idx, fold, ratio, n_hf,
-                "MF_DEPLOY", y_test,
+                "MFCK", y_test,
                 lf_mean + lf_scale * pred, lf_scale * std,
             )
 
